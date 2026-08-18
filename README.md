@@ -1,5 +1,10 @@
 # textutils
 
+# lab-textutils
+
+![CI](https://github.com/Daxeman/lab-textutils/actions/workflows/ci.yml/badge.svg)
+
+
 A small Python library for text processing. Provides utilities for:
 
 - **slugify** — converting text strings into URL-safe slugs
