@@ -33,12 +33,12 @@ def slugify(text: str) -> str:
 
     # Ersatt svenska tecken
     replacements = {
-        "a": "a",
-        "a": "a",
-        "o": "o",
-        "A": "a",
-        "A": "a",
-        "O": "o",
+        "ä": "a",
+        "å": "a",
+        "ö": "o",
+        "Å": "a",
+        "Ä": "a",
+        "Ö": "o",
     }
     for original, replacement in replacements.items():
         text = text.replace(original, replacement)
